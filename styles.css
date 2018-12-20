@@ -1,0 +1,58 @@
+.answers {
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+
+.head_title_container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    padding:10px;
+    width: 250px;
+    background-color: purple;
+    text-align: center;
+    color:white;
+    font-family: 'Charm', cursive;
+}
+
+.eight_ball_container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.eight_ball{
+    cursor: pointer;
+    background-image: url("https://blokt.com/wp-content/plugins/magic-answers/images/ball-back.png");
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.back{
+    background-image: url("https://cdn.psychologytoday.com/sites/default/files/styles/image-article_inline_full/public/field_blog_entry_images/curtains.jpg?itok=_XCjDQqC");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+}
+
+.shake {
+ animation-name: shaking ; 
+ animation-duration: .2s ;
+ animation-iteration-count: 4;
+}
+
+@keyframes shaking{
+  0%   { transform:translate(0px,0px); }
+  15%  { transform:translate(10px,-15px); }
+  25%  { transform:translate(-10px,15px); }
+  50%  { transform:translate(15px,15px); }
+  65%  { transform:translate(-10px,-15px); }
+  100% { transform:translate(0px,0px); }
+}    
+
